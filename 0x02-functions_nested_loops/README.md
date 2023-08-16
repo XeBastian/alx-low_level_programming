@@ -1,1 +1,1 @@
-Added readme
+Solutions to Tasks on Functions and nested loops

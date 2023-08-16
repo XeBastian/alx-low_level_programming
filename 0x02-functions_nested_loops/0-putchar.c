@@ -1,7 +1,19 @@
-#include<stdio.h>
+#include "main.h"
+
+/**
+ * main - Print "_putchar" followed by a new line.
+ * Description: You are not allowed to include standard libraries.
+ * Return 0
+ */
 
 int main(){
-	print("_putchar\n");
+        char myVar[] = "_putchar";
+	int i =0;
+	while (myVar[i] != '\0'){
+	_putchar(myVar[i]);
+	i++;
+	}
 
-return 0;
+	_putchar("\n");
+	return 0;
 }
